@@ -1,0 +1,46 @@
+{
+  "name": "@notesscript/local-client",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@monaco-editor/react": "^4.4.6",
+    "@uiw/react-md-editor": "2.1.1",
+    "@mui/icons-material": "^5.10.16",
+    "@mui/material": "^5.10.16",
+    "@reduxjs/toolkit": "^1.9.1",
+    "@types/prettier": "^2.7.1",
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@types/react-resizable": "3.0.2",
+    "@vitejs/plugin-react": "^2.2.0",
+    "axios": "^1.2.0",
+    "esbuild-wasm": "0.8.27",
+    "localforage": "^1.10.0",
+    "prettier": "^2.8.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-resizable": "3.0.4",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "Lucas",
+  "license": "ISC",
+  "description": ""
+}
